@@ -1,0 +1,104 @@
+@media screen and (max-width: 768px) {
+  header {
+    padding: 0;
+  }
+
+  header .desktop-menu ul {
+    display: none;
+  }
+
+  .deskSocial {
+    display: none;
+  }
+
+  .mobile-header {
+    width: 100%;
+
+    display: flex;
+  }
+
+  .mobile-header img {
+    width: 40px;
+    margin: 20px;
+    position: absolute;
+  }
+
+  .mobile-menu .menu-items {
+    font-size: 26px;
+  }
+  
+  header .social-medias-mobile {
+    margin-top: 30px;
+  }
+
+  .about-me {
+    height: auto;
+    display: block;
+  }
+
+  .my-photo {
+    margin: 15px auto;
+  }
+
+  .text-about {
+    width: 90%;
+    margin: 40px auto;
+  }
+
+  .info-my-job {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+  .more-info {
+    font-size: 16px;
+  }
+
+  .about-skills {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .about-skills p {
+    text-align: justify;
+  }
+
+  .align-projects .projects {
+    display: block;
+  }
+
+  .align-projects .projects li {
+    width: 80%;
+    height: 320px;
+    margin: 30px auto;
+  }
+
+  .align-projects .projects li .thumb {
+    height: 260px;
+  }
+
+  footer {
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+
+  footer p {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .fa-html5,
+  .fa-css3-alt,
+  .fa-js-square {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-height: 634px) {
+  .banner {
+    padding: 60px 0 30px 0;
+    height: auto;
+  }
+}
