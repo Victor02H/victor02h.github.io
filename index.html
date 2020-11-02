@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Estudante de Desenvolvimento Web. Atuando no mercado como Freelancer">
+  <meta name="keywords" content="Desenvolvedor Frontend, Frontend, HTML5, CSS3, JS, Javascript, JQuery, Desenvolvimento Web, Freelancer">
+  <meta name="author" content="Victor Henrique">
+
+  <title>Portfólio | Victor Henrique</title>
+  <script src="https://kit.fontawesome.com/b46493911c.js" crossorigin="anonymous"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="images/fav.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+  <header>
+    <nav class="desktop-menu">
+      <ul>
+        <a href="#skills">
+          <li>Habilidades</li>
+        </a>
+        <a href="#projects">
+          <li>Projetos</li>
+        </a>
+      </ul>
+    </nav>
+
+    <div class="social-medias deskSocial">
+      <a href="https://www.instagram.com/victorsilva6623/" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://t.me/Victor_Silva02" target="_blank">
+        <i class="fab fa-telegram"></i>
+      </a>
+      <a href="https://github.com/Victor02H" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+  </header>
+
+  <header class="mobile-header">
+    <div id="menuButton" class="menu-button">
+      <img src="images/list.svg" alt="Menu hamburguer">
+    </div>
+    <div id="mobileMenu" class="menu-options">
+      <nav class="mobile-menu">
+        <ul>
+          <a href="#skills">
+            <li class="menu-items">Habilidades</li>
+          </a>
+          <a href="#projects">
+            <li class="menu-items">Projetos</li>
+          </a>
+        </ul>
+
+        <div class="social-medias-mobile">
+          <a href="https://www.instagram.com/victorsilva6623/" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://t.me/Victor_Silva02" target="_blank">
+            <i class="fab fa-telegram"></i>
+          </a>
+          <a href="https://github.com/Victor02H" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="banner">
+    <div class="container">
+
+      <section class="about-me">
+        <img class="my-photo" src="images/my-photo.jpg" alt="Minha foto">
+        <div class="align-text-responsive">
+          <div class="text-about">
+            <h1>Victor <br> Henrique</h1>
+            <p class="info-my-job">Desenvolvedor Frontend</p>
+            <p class="more-info">
+              Estudante de <strong>Desenvolvimento Web</strong> há seis meses. Atuando no mercado 
+              como Freelancer e sempre na busca de conhecimento para trazer as melhores soluções possíveis.
+            </p>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <div class="container">
+
+      <div class="about-skills">
+        <h2 class="section-title">Habilidades</h2>
+        <p>
+          <strong>Desenvolvedor Frontend e Freelancer.</strong> Buscando cada vez mais conhecimentos sobre a área,
+          não apenas no Frontend mas também no Backend.
+          Como Desenvolvedor Frontend utilizo suas linguagens padrões: <strong> HTML5, CSS3 e JS/JQuery</strong>, com essas linguagens consigo desenvolver
+          qualquer tipo de layout, seja simples ou não.
+        </p>
+        <div class="stack-icons">
+          <div class="img1 imgResp">
+            <i style="color: #fd7e14;" class="fab fa-html5"></i>
+          </div>
+          <div class="img2 imgResp">
+            <i style="color: #3c9cd7;" class="fab fa-css3-alt"></i>
+          </div>
+          <div class="img3 imgResp">
+            <i style="color: #f7df1e;" class="fab fa-js-square"></i>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="projects" class="the-projects">
+    <div class="container">
+
+      <h2 class="section-title">Projetos</h2>
+      <div class="align-projects">
+        <ul class="projects">
+          <li>
+            <div class="thumb">
+              <a href="projects-pages/pinturas-tres-irmaos.html">
+                <img class="thumb" src="images/project-one.jpg" alt="">
+              </a>
+            </div>
+            <p class="about-the-project">Pinturas Três Irmãos</p>
+          </li>
+          <li>
+            <div class="thumb">
+              <a href="projects-pages/facebook-page.html">
+                <img class="thumb" src="images/project-two.png">
+              </a>
+            </div>
+            <p class="about-the-project">Clone página de login Facebook</p>
+          </li>
+          <li>
+            <p class="about-the-project">Em breve...</p>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2020 Victor Henrique</p>
+
+    <div class="social-medias">
+      <a href="https://www.instagram.com/victorsilva6623/" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://t.me/Victor_Silva02" target="_blank">
+        <i class="fab fa-telegram"></i>
+      </a>
+      <a href="https://github.com/Victor02H" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+  </footer>
+
+  <script src="js/jquery.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
