@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+html, body {
+  height: 100%;
+  background-color: #1B2431;
+}
+
+header {
+  width: 100%;
+  padding: 15px 6%;
+  position: absolute;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+header .desktop-menu ul {
+  display: flex;
+}
+
+header .desktop-menu ul a,
+.mobile-menu ul a {
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.mobile-menu ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-menu ul a {
+  display: inline-block;
+}
+
+header .desktop-menu li,
+.mobile-menu li {
+  padding: 10px;
+  border-radius: 20px;
+
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+
+  list-style-type: none;
+  transition: background .6s;
+}
+
+header .menu-options {
+  width: 100%;
+  padding: 80px 0;
+
+  display: none;
+
+  text-align: center;
+  background-color: #1b2431f1;
+}
+
+header .desktop-menu li:hover,
+.social-medias i:hover,
+.fa-arrow-left:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.social-medias a, .social-medias-mobile a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.social-medias i, .social-medias-mobile i {
+  padding: 10px;
+  border-radius: 20px;
+
+  font-size: 42px;
+  color: white;
+
+  transition: background .6s; 
+}
+
+.mobile-header {
+  display: none;
+}
