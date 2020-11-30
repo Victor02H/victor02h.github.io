@@ -150,6 +150,15 @@ strong {
   font-weight: 700;
 }
 
+.align-projects .coming-soon {
+  padding-top: 40px;
+  font-weight: bold;
+
+  list-style-type: none;
+  text-align: center;
+  color: white;
+}
+
 footer {
   width: 100%;
   padding: 10px 6%;
