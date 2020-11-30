@@ -58,6 +58,27 @@
   color: white;
 }
 
+.align-icons-download {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.align-icons-download a {
+  padding: 10px 15px;
+  border-radius: 20px;
+
+  text-decoration: none;
+  color: white;
+
+  transition: background .6s;
+}
+
+.align-icons-download a i {
+  font-size: 44px;
+}
+
 .project-info .see-project {
   padding: 10px;
   border-radius: 20px;
