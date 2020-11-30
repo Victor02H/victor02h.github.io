@@ -150,11 +150,14 @@ strong {
   font-weight: 700;
 }
 
-.align-projects .coming-soon ul {
+.align-projects .coming-soon {
+  list-style-type: none;
+}
+
+.align-projects .coming-soon p {
   padding-top: 40px;
   font-weight: bold;
-
-  list-style-type: none;
+  
   text-align: center;
   color: white;
 }
